@@ -1,0 +1,11 @@
+[data-transition-box] {
+  pointer-events: none;
+}
+
+html.is-transition-active {
+  cursor: progress;
+}
+
+html.is-transition-active a {
+  pointer-events: none;
+}
